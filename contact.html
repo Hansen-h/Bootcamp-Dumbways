@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hansen day2</title>
+
+    <!-- style-css -->
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/home.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>    
+    <!-- start navbar -->
+    <nav>
+        <div class="left-side">
+            <img src="image/logo.png" alt="logo">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <ul>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <div class="container">
+        <div class="judul">
+            <h2>GET IN TOUCH</h2>
+            <form action="home.html">
+                <div class="nama">
+                    <label for="name">Name</label>
+                    <input type="text" id="name"/>
+                </div>
+                <div class="mail">
+                    <label for="email">Email</label>
+                    <input type="email" id="email"/>
+                </div>
+                <div class="nohp">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone"/>
+                </div>
+                <div class="isi">
+                    <label for="subject">Subject</label>
+                    <select name="" id="subject">
+                        <option value="frontend">Frontend</option>
+                        <option value="backend">Backend</option>
+                        <option value="fullstack">Fullstack</option>
+                    </select>
+                </div>
+                <div class="pesan">
+                    <label for="msg">Your Message</label>
+                    <textarea name="" id="msg" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button>submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
