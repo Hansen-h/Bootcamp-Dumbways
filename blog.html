@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- style-css -->
+    <link rel="stylesheet" href="assets/CSS/blog.css">
+    <link rel="stylesheet" href="assets/CSS/home.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- start navbar -->
+    <nav>
+        <div class="left-side">
+            <img src="assets/image/logo.png" alt="logo">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <ul>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- form -->
+    <div class="blog">
+        <div class="blog-form">
+            <div class="blog-content">
+                <form onsubmit="getDat(event)">
+                    <h2>ADD MY PROJECT</h2>
+                    <div class="name">
+                        <label for="nama-projek">Project Name</label>
+                        <input type="text" id="nama-projek" placeholder="input your project name..." />
+                    </div>
+                    <div class="date-start">
+                        <label for="tgl-awal">Start Date</label>
+                        <input type="date" id="tgl-awal" placeholder="dd/mm/yyyy" />
+                    </div>
+                    <div class="date-end">
+                        <label for="tgl-akhir">End Date</label>
+                        <input type="date" id="tgl-akhir" placeholder="dd/mm/yyyy" />
+                    </div>
+                    <div class="describe">
+                        <label for="description">Description</label>
+                        <textarea name="" id="description" cols="30" rows="10"
+                            placeholder="Fill in the blank..."></textarea>
+                    </div>
+                    <div class="grup-checkbox">
+                        <p>Technologies</p>
+                        <div class="b-node-js">
+                            <input type="checkbox" id="node-js" value="Node Js" />
+                            <label for="node-js">Node Js</label>
+                        </div>
+                        <div class="b-react-js">
+                            <input type="checkbox" id="react-js" value="React Js" />
+                            <label for="react-js">React Js</label>
+                        </div>
+                        <div class="b-python">
+                            <input type="checkbox" id="python" value="Python" />
+                            <label for="python">Python</label>
+                        </div>
+                        <div class="b-golang">
+                            <input type="checkbox" id="golang" value="golang" />
+                            <label for="golang">Golang</label>
+                        </div>
+                    </div>
+                    <div class="up-img">
+                        <p>Upload Image</p>
+                        <div class="input-image">
+                            <label for="take-file">
+                                <p>choose file</p>
+                            </label>
+                            <input type="file" id="take-file" value="image" hidden>
+                        </div>
+                    </div>
+                    <div>
+                        <button>submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- end form -->
+
+    <div class="next-contentBlog" id="conten">
+        <h1>MY PROJECT</h1>
+        <div class="blog-container">
+            <div class="blog-project">
+                <img src="assets/image/photo-1510519138101-570d1dca3d66.avif" />
+                <a href="blog-detail.html" target="_blank">
+                    <h3>Web Developer - 2022</h3>
+                </a>
+                <div class="comment">durasi: 1 year</div>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias non quidem unde repellendus sunt
+                    natus aperiam nemo consectetur sed odio ea asperiores, ut iste deleniti eos cumque. Hic, atque non!
+                </p>
+                <div class="icon">
+                    <i class="fa-brands fa-golang"></i>
+                    <i class="fa-brands fa-node"></i>
+                    <i class="fa-brands fa-react fa"></i>
+                </div>
+                <div class="btn">
+                    <button>edit</button>
+                    <button>delete</button>
+                </div>
+            </div>
+
+            <div class="blog-project">
+                <img src="assets/image/photo-1675119713402-e4e295197e72.avif" />
+                <a href="blog-detail2.html" target="_blank">
+                    <h3>Web Developer - 2022</h3>
+                </a>
+                <div class="comment">durasi: 1 year</div>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias non quidem unde repellendus sunt
+                    natus aperiam nemo consectetur sed odio ea asperiores, ut iste deleniti eos cumque. Hic, atque non!
+                </p>
+                <div class="icon">
+                    <i class="fa-brands fa-react fa"></i>
+                    <i class="fa-brands fa-node"></i>
+                    <i class="fa-brands fa-golang"></i>
+                </div>
+                <div class="btn">
+                <button>edit</button>
+                <button>delete</button>
+                </div>
+            </div>
+
+            <div class="blog-project">
+                <img src="assets/image/photo-1488590528505-98d2b5aba04b.avif" />
+                <a href="blog-detail3.html" target="_blank">
+                    <h3>Web Developer - 2022</h3>
+                </a>
+                <div class="comment">durasi: 1 year</div>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias non quidem unde repellendus sunt
+                    natus aperiam nemo consectetur sed odio ea asperiores, ut iste deleniti eos cumque. Hic, atque non!
+                </p>
+                <div class="icon">
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-react fa"></i>
+                    <i class="fa-brands fa-golang"></i>
+                </div>
+                <div class="btn">
+                <button>edit</button>
+                <button>delete</button>
+                </div>
+            </div>
+
+            
+        </div>
+    <script src="assets/js/blogConten.js"></script>
+</body>
+
+</html>

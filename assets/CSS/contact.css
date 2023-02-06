@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container{
+    display: flex;
+    width: 450px;
+    margin: 50px auto;
+}
+
+.judul{
+    text-align: center;
+}
+
+.judul h2{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    text-shadow: 1px 1px #dbdbdb;
+}
+
+.nama label{
+    display: flex;
+    text-align: left;
+    font-weight: 500;
+}
+
+.nama input{
+    margin-top: 5px;
+    display: flex;
+    margin-bottom: 10px;
+    width: 430px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+}
+
+
+.mail label{
+    display: flex;
+    text-align: left;
+    font-weight: 500;
+}
+
+
+.mail input{
+    margin-top: 5px;
+    display: flex;
+    margin-bottom: 10px;
+    width: 430px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+}
+
+.nohp label{
+    display: flex;
+    text-align: left;
+    font-weight: 500;
+}
+
+.nohp input{
+    margin-top: 5px;
+    display: flex;
+    width: 430px;
+    margin-bottom: 10px;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+}
+
+
+.isi label{
+    display: flex;
+    text-align: left;
+    font-weight: 500;
+}
+
+.isi select{
+    margin-top: 5px;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 33px;
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+}
+
+.pesan label{
+    display: flex;
+    text-align: left;
+    font-weight: 500;
+}
+
+.pesan textarea{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px 0 0 5px;
+    width: 100%;
+    height: 150px;
+    resize: none;
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+}
+
+button{
+    display: flex;
+    margin: 50px 0 0 auto;
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+    padding: 2px 15px;
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px #444;
+    font-weight: 500;
+    cursor: pointer;
+}
