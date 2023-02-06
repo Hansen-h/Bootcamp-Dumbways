@@ -1,0 +1,311 @@
+.blog{
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding: 0 auto 0 auto;
+    margin: auto;
+    background-color: #f5f2ea;
+}
+
+.blog-form{
+    width: auto;
+    height: auto;
+    text-align: left;
+}
+
+.blog-content h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.blog-content .name{
+    margin-top: 20px;
+}
+
+.blog-content .name label{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.blog-content .name input{
+    display: flex;
+    width: 100%;
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    height: 4vh;
+}
+
+.blog-content .date-start{
+    display: inline-block;
+}
+
+.blog-content .date-start label{
+    font-size:15px;
+    font-weight: 500;
+    display: flex;
+}
+.blog-content .date-start input{
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+    padding-left: 5px;
+    height: 4vh;
+}
+
+.blog-content .date-end{
+    float: right;
+}
+
+.blog-content .date-end label{
+    display: flex;
+    font-size:15px;
+    font-weight: 500;
+    margin-right: 80px;
+}
+
+.blog-content .date-end input {
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+    padding-left: 5px;   
+    height: 4vh;
+}
+
+.blog-content .describe {
+    margin-top: 15px;
+}
+
+.blog-content .describe label{
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.blog-content .describe textarea{
+    resize: none;
+    width: 100%;
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+    padding-left: 7px;
+    padding-top: 5px;
+}
+
+.grup-checkbox{
+    margin-top: 15px;
+}
+
+.grup-checkbox p{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.grup-checkbox .b-node-js{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.grup-checkbox .b-node-js input{
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    box-shadow: 1px  grey;
+}
+
+.grup-checkbox .b-node-js label{
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.grup-checkbox .b-react-js{
+    display: flex;
+}
+
+.grup-checkbox .b-react-js input{
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    box-shadow: 1px  grey;
+}
+
+.grup-checkbox .b-react-js label{
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+
+.grup-checkbox .b-next-js{
+    float: right;
+    display: flex;
+    margin-top: -45px;
+    margin-right: 45.5%;
+}
+
+.grup-checkbox .b-next-js input{
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    box-shadow: 1px  grey;
+}
+
+.grup-checkbox .b-next-js label{
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.grup-checkbox .b-golang{
+    display: flex;
+    float: right;
+    margin-right: 44.8%;
+    margin-top: -20px;
+}
+
+.grup-checkbox .b-golang input{
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    box-shadow: 1px  grey;
+}
+
+.grup-checkbox .b-golang label{
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.up-img{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.up-img p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.up-img .input-image{
+    margin-top: 5px;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.input-image label{
+    border: 2px solid #dbdbdb;
+    border-radius: 5px;
+    box-shadow: 1px  grey;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.up-img .input-image p{
+    font-size: small;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    color: grey;
+    background-color: #dbdbdb;
+    margin-right: 220px;
+}
+
+.up-img img{
+    cursor: pointer;
+    display: flex;
+    margin-top: -25px;
+    float: right;
+}
+
+button{
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    box-shadow: 1px  grey;
+    float: right;
+    margin-top: 30px;
+    padding: 2px 2px;
+    width: 100px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.next-contentBlog{
+    margin-top: 35px;
+}
+
+.next-contentBlog h1{
+    text-shadow: 2px #fbffdb;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #F8F4EA;
+    box-shadow: 1px 1px #ECE8DD;
+}
+
+.blog-container{
+    display: flex;
+    background-color: #f7f7f7;
+    justify-content: center;
+}
+
+.blog-container .blog-project{
+    margin-left: 20px;
+    margin-top: 50px;
+}   
+
+.blog-project{
+    border: 2px solid #dbdbdb;
+    border-radius: 5px;
+    box-shadow: 1px 1px grey;
+    width: 20%;
+    height: auto;
+    padding:10px;
+    margin: 50px;
+    margin-bottom: 10%;
+}
+
+.blog-project img{
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.blog-project a{
+    text-decoration: none;
+    color: black;
+}
+
+.blog-project .comment{
+    font-size: 14px;
+    color: #434242;
+    padding-bottom: 10px;
+}
+
+.blog-project p{
+    text-align: justify;
+    width: auto;
+    height: auto;
+}
+
+.blog-container .blog-project .icon{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.blog-container .blog-project .icon i{
+    font-size: 35px;
+    padding:20px;
+    padding-bottom: 5px;
+}
+
+.blog-container .blog-project .btn{
+    display: flex;
+    justify-content: center;
+}
+
+.blog-container .blog-project .btn button{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 2px solid #dbdbdb;
+    border-radius: 5px;
+    box-shadow: 2px 2px #434242;
+}
